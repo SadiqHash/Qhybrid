@@ -9,7 +9,7 @@ This first version focuses on three powerful features:
 * Variational Framework (VQE engine)
 * Notebook templates for learning and experimentation.
 
-
+---
 
 🌌 What QHybrid Is
 
