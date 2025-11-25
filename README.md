@@ -7,7 +7,7 @@ This first version focuses on three powerful features:
 * Qiskit + Cirq backends (fully modular)
 * Translator  between Qiskit ↔ Cirq circuit formats
 * Variational Framework (VQE engine)
-* Notebook templates for learning and experimentation.
+* Notebook templates for learning and experimentation
 
 ---
 
@@ -24,11 +24,11 @@ QHybrid is a backend framework for developers, students, and researchers who wan
 
 Instead of hiding complexity, QHybrid shows you how hybrid computing really works under the hood.
 
-
+---
 
 📁 Project Structure
 
-Below is the final structure for QHybrid v1. Each file and folder is clickable when viewed on GitHub.
+Below is the final structure for QHybrid v1. Each file and folder is clickable when viewed.
 
 ```
 qhybrid/
@@ -79,12 +79,11 @@ qhybrid/
 ├── README.md
 └── pyproject.toml
 ```
-
+---
 
 🧠 Deep Explanation of Each Important Module
 
 Below is a simple, clear explanation of what each part of QHybrid does.
-On GitHub, clicking any filename below will open the file in the repo.
 
 🔷 `quantum/qiskit_backend.py`
 
@@ -129,7 +128,7 @@ Central controller for running circuits.
 
 * Chooses backend
 * Executes
-* Returns formatted results.
+* Returns formatted results
 
 🔷 `quantum/translator.py`
 
@@ -138,6 +137,7 @@ Converts a circuit built using Qiskit into a Cirq equivalent (and coming version
 
 This is one of QHybrid’s most unique features.
 
+---
 
 🟦 Classical Logic
 
@@ -153,7 +153,7 @@ Simple quantum‑resistant key analyzer.
 
 General math helpers.
 
-
+---
 
 🟩 Hybrid Engine (Variational Framework)
 
@@ -181,7 +181,7 @@ Hamiltonians and cost evaluations.
 
 A minimal working VQE example.
 
-
+---
 
 🎨 Visualization Tools
 
@@ -193,7 +193,7 @@ Creates clean plots of circuits.
 
 Lightweight ASCII circuit rendering for terminal use.
 
-
+---
 
 📓 Notebooks Folder:
 
@@ -206,7 +206,7 @@ Guides users step by step.
 
 These notebooks make QHybrid easy to learn and teach.
 
-
+---
 
 ▶️ Running QHybrid
 
@@ -220,7 +220,7 @@ Or open the notebooks:
 jupyter notebook notebooks/
 ```
 
-
+---
 
 🌱 Roadmap
 
@@ -232,14 +232,14 @@ QHybrid grows version by version. Future versions will include:
 * Frontend visualizer
 * Quantum‑secure encryption demos
 
-
+---
 
 🤝 Contribution
 
 QHybrid is open‑source.
 Contributions, feedback, and experiments are always welcome.
 
-
+---
 
 💡 Final Note
 
