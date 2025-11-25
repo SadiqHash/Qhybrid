@@ -28,7 +28,7 @@ Instead of hiding complexity, QHybrid shows you how hybrid computing really work
 
 📁 Project Structure
 
-Below is the final structure for QHybrid v1. Each file and folder is clickable when viewed.
+Below is the final structure for QHybrid v1.
 
 ```
 qhybrid/
@@ -133,9 +133,9 @@ Central controller for running circuits.
 🔷 `quantum/translator.py`
 
 The Qiskit ↔ Cirq translator.
-Converts a circuit built using Qiskit into a Cirq equivalent (and coming versions vice‑versa).
+Converts a circuit built using Qiskit into a Cirq equivalent.
 
-This is one of QHybrid’s most unique features.
+This is one of QHybrid most unique features.
 
 ---
 
@@ -222,15 +222,15 @@ jupyter notebook notebooks/
 
 ---
 
-🌱 Roadmap
+🛤️ Roadmap
 
 QHybrid grows version by version. Future versions will include:
 
 * API mode
 * Quantum cloud execution
 * More hybrid algorithms
-* Frontend visualizer
-* Quantum‑secure encryption demos
+* Quantum secure encryption
+* and more
 
 ---
 
@@ -241,7 +241,7 @@ Contributions, feedback, and experiments are always welcome.
 
 ---
 
-💡 Final Note
+Final Note
 
 QHybrid is built for developers who want to understand the future of computing.
-Hybrid quantum‑classical logic will power the next era and this project gives you a hands on way to learn it.
+Hybrid quantum classical logic will power the next era and this project gives you a hands on way to learn it.
