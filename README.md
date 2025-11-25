@@ -10,6 +10,7 @@ This first version focuses on three powerful features:
 * Notebook templates for learning and experimentation.
 
 
+
 🌌 What QHybrid Is
 
 QHybrid is a backend framework for developers, students, and researchers who want to:
@@ -22,6 +23,7 @@ QHybrid is a backend framework for developers, students, and researchers who wan
 * Understand hybrid computing through notebooks.
 
 Instead of hiding complexity, QHybrid shows you how hybrid computing really works under the hood.
+
 
 
 📁 Project Structure
@@ -77,6 +79,7 @@ qhybrid/
 ├── README.md
 └── pyproject.toml
 ```
+
 
 🧠 Deep Explanation of Each Important Module
 
@@ -151,6 +154,7 @@ Simple quantum‑resistant key analyzer.
 General math helpers.
 
 
+
 🟩 Hybrid Engine (Variational Framework)
 
 🔷 `hybrid/variational/vqe.py`
@@ -178,6 +182,7 @@ Hamiltonians and cost evaluations.
 A minimal working VQE example.
 
 
+
 🎨 Visualization Tools
 
 🔷 `visualize/circuit_drawer.py`
@@ -187,6 +192,7 @@ Creates clean plots of circuits.
 🔷 `visualize/ascii_drawer.py`
 
 Lightweight ASCII circuit rendering for terminal use.
+
 
 
 📓 Notebooks Folder:
@@ -199,6 +205,7 @@ Guides users step by step.
 * Translating circuits between frameworks
 
 These notebooks make QHybrid easy to learn and teach.
+
 
 
 ▶️ Running QHybrid
@@ -214,6 +221,7 @@ jupyter notebook notebooks/
 ```
 
 
+
 🌱 Roadmap
 
 QHybrid grows version by version. Future versions will include:
@@ -225,10 +233,12 @@ QHybrid grows version by version. Future versions will include:
 * Quantum‑secure encryption demos
 
 
+
 🤝 Contribution
 
 QHybrid is open‑source.
 Contributions, feedback, and experiments are always welcome.
+
 
 
 💡 Final Note
