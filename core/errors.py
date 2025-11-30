@@ -1,0 +1,2 @@
+class QHybridError(Exception):
+    pass
